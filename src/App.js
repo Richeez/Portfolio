@@ -53,7 +53,7 @@ function App() {
               <div className='text-cont'>
                 <h1>
                   Hello, My Name is
-                  <span className='name'> Richard Saturday <br /></span>
+                  <span contenteditable="true" className='name'> Richard Saturday <br /></span>
                   <span className='profession'> I'm  a&nbsp;
                     <Typewriter
 
@@ -509,7 +509,7 @@ function App() {
 
   function download() {
     // using Java Script method to get PDF file
-    fetch('Richard-CV.pdf').then(response => {
+    fetch('resume@latest.pdf').then(response => {
       response.blob().then(blob => {
         // Creating new object of PDF file
         const fileURL = window.URL.createObjectURL(blob);
