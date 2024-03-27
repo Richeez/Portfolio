@@ -1,0 +1,3 @@
+#HOW TO PUSH TO ANOTHER REPO
+git remote add resume https://github.com/Richeez/Portfolio.git
+ git push resume main:Portfolio

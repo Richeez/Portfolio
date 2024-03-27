@@ -113,9 +113,9 @@ function App() {
                     <div>
                       <p>
                         Experienced and highly skilled full-stack Developer
-                        specialiazing in HTML, CSS3, Javascript, React
+                        specializing in HTML, CSS3, Javascript, React
                         JS(Front-end), and MongoDB(Back-end) with a strong
-                        background in progressive web development and a passion
+                        background in progressive web development, and a passion
                         for creating efficient and user-friendly applications.
                         Proven track record of delivering high-quality code on
                         time and within budget. Detail-oriented and resourceful
@@ -164,7 +164,7 @@ function App() {
                   </div>
                   <div className="about-items">
                     <div className="items-cont">
-                      <p className="large-text">2+</p>
+                      <p className="large-text">3+</p>
                       <p className="small-text">
                         Years of <br />
                         Experience.
@@ -308,12 +308,26 @@ function App() {
                   <div className="timeline-icon">
                     <i className="fas fa-briefcase"></i>
                   </div>
-                  <p className="timeline-duration">2021 - present</p>
+                  <p className="timeline-duration">2023 - 2024</p>
                   <h4>
-                    Web developer <span> - Beetos</span>{" "}
+                    developer <span> - Postly</span>{" "}
                   </h4>
                   <p className="duration-text">
-                    Responsible for development, implementaion and maintenance
+                    Responsible for development, implementation and maintenance
+                    of web app user interface and functionality for managing all
+                    social media messages, comments etc. from a single platform.
+                  </p>
+                </div>
+                <div className="timeline-item">
+                  <div className="timeline-icon">
+                    <i className="fas fa-briefcase"></i>
+                  </div>
+                  <p className="timeline-duration">2021 - 2023</p>
+                  <h4>
+                    developer <span> - Beetos</span>{" "}
+                  </h4>
+                  <p className="duration-text">
+                    Responsible for development, implementation and maintenance
                     of both desktop and mobile user interface.
                   </p>
                 </div>
