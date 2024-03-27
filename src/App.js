@@ -553,14 +553,14 @@ function App() {
 
   function download() {
     // using Java Script method to get PDF file
-    fetch("resume@latest.pdf").then((response) => {
+    fetch("Richard Saturday@latest24.pdf").then((response) => {
       response.blob().then((blob) => {
         // Creating new object of PDF file
         const fileURL = window.URL.createObjectURL(blob);
         // Setting various property values
         let alink = document.createElement("a");
         alink.href = fileURL;
-        alink.download = "Richard-CV.pdf";
+        alink.download = "Richard Saturday@latest24.pdf";
         alink.click();
       });
     });
