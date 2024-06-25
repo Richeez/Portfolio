@@ -421,21 +421,20 @@ export const MainContainer = styled.main`
 
     .progress-bars {
       display: grid;
+      width: 100%;
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
       gap: 1rem;
       justify-items: center;
-      /* place-content:center; */
+    
 
       .progress-bar {
         display: flex;
         flex-direction: column;
-         width: 100%;
-         container-type: inline-size; 
+         width: 100%; 
 
         .progress-title {
           text-transform: uppercase;
           width: 100%;
-          /* font-weight: 500; */
           outline: 1px solid var(--color-yellow-1);
           box-shadow: var(--box-shadow-2);
           word-wrap: normal;
