@@ -269,7 +269,8 @@ function App() {
                   </div>
                   <div className="progress-bar">
                     <p className="progress-title">
-                      Data Management(Context API, Redux-toolkit)
+                      Data Management <br/>
+                    (Context API, Redux-toolkit)
                     </p>
                     {/*<div class="progress-cont">
                       <p class="progress-text">90%</p>
