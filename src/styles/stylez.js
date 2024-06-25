@@ -421,7 +421,7 @@ export const MainContainer = styled.main`
 
     .progress-bars {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
       gap: 1rem;
       justify-items: center;
       /* place-content:center; */
@@ -433,10 +433,10 @@ export const MainContainer = styled.main`
 
         .progress-title {
           text-transform: uppercase;
+          width: 100%;
           /* font-weight: 500; */
           outline: 1px solid var(--color-yellow-1);
           box-shadow: var(--box-shadow-2);
-          width: 200px;
           word-wrap: normal;
           padding: 0.2rem 1.5rem;
           letter-spacing: 2px;
