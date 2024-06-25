@@ -429,7 +429,8 @@ export const MainContainer = styled.main`
       .progress-bar {
         display: flex;
         flex-direction: column;
-        /* container-type: inline-size; */
+         width: 100%;
+         container-type: inline-size; 
 
         .progress-title {
           text-transform: uppercase;
